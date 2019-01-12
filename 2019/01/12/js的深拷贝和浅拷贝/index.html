@@ -106,20 +106,24 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="三米的博客">
-<meta property="og:url" content="http://yoursite.com/archives/2018/07/index.html">
+  <meta name="description" content="前言我们在项目中，经常会用到赋值，其中基本数据类型(Undefined、Boolean、Number、String、Null)的赋值都是开辟了新的空间存储拷贝的值，所以不存在深拷贝和浅拷贝。今天我们主要说的是对象和数组的深拷贝和浅拷贝。 为什么要知道深浅拷贝我们在做项目的时候，会遇到这种情况，将一个对象或数组A赋值给对象或数组B，B = A，这时候，我们在后面操作B时，改变了B，这时候，你会发现A">
+<meta property="og:type" content="article">
+<meta property="og:title" content="js的深拷贝和浅拷贝">
+<meta property="og:url" content="http://yoursite.com/2019/01/12/js的深拷贝和浅拷贝/index.html">
 <meta property="og:site_name" content="三米的博客">
+<meta property="og:description" content="前言我们在项目中，经常会用到赋值，其中基本数据类型(Undefined、Boolean、Number、String、Null)的赋值都是开辟了新的空间存储拷贝的值，所以不存在深拷贝和浅拷贝。今天我们主要说的是对象和数组的深拷贝和浅拷贝。 为什么要知道深浅拷贝我们在做项目的时候，会遇到这种情况，将一个对象或数组A赋值给对象或数组B，B = A，这时候，我们在后面操作B时，改变了B，这时候，你会发现A">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-01-12T10:26:54.272Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="三米的博客">
+<meta name="twitter:title" content="js的深拷贝和浅拷贝">
+<meta name="twitter:description" content="前言我们在项目中，经常会用到赋值，其中基本数据类型(Undefined、Boolean、Number、String、Null)的赋值都是开辟了新的空间存储拷贝的值，所以不存在深拷贝和浅拷贝。今天我们主要说的是对象和数组的深拷贝和浅拷贝。 为什么要知道深浅拷贝我们在做项目的时候，会遇到这种情况，将一个对象或数组A赋值给对象或数组B，B = A，这时候，我们在后面操作B时，改变了B，这时候，你会发现A">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2018/07/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/12/js的深拷贝和浅拷贝/">
 
 
 
@@ -129,7 +133,7 @@
   };
 </script>
 
-  <title>归档 | 三米的博客</title>
+  <title>js的深拷贝和浅拷贝 | 三米的博客</title>
   
 
 
@@ -177,7 +181,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <!-- 添加github图标fork -->
@@ -269,7 +273,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -340,136 +344,251 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
 
-      
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 11 篇日志。 继续努力。
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
-          </div>
-        
-        
-
-        
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/12/js的深拷贝和浅拷贝/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="三米">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="三米的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2018/07/25/凌晨三点半/" itemprop="url">
-            
-              <span itemprop="name">凌晨三点半</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">js的深拷贝和浅拷贝
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-07-25T21:53:43+08:00" content="2018-07-25">
-          07-25
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-01-12 18:08:24 / 修改时间：18:26:54" itemprop="dateCreated datePublished" datetime="2019-01-12T18:08:24+08:00">2019-01-12</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">1.9k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">2 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2018/07/21/功名/" itemprop="url">
-            
-              <span itemprop="name">功名</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-07-21T23:10:39+08:00" content="2018-07-21">
-          07-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们在项目中，经常会用到赋值，其中基本数据类型(Undefined、Boolean、Number、String、Null)的赋值都是开辟了新的空间存储拷贝的值，所以不存在深拷贝和浅拷贝。今天我们主要说的是对象和数组的深拷贝和浅拷贝。<br></p>
+<h2 id="为什么要知道深浅拷贝"><a href="#为什么要知道深浅拷贝" class="headerlink" title="为什么要知道深浅拷贝"></a>为什么要知道深浅拷贝</h2><p>我们在做项目的时候，会遇到这种情况，将一个对象或数组A赋值给对象或数组B，B = A，这时候，我们在后面操作B时，改变了B，这时候，你会发现A也被改变了，这就是浅拷贝。然而实际项目中我们只想改变B但是A又要保持不变，这时候就要用到深拷贝了。说白了，两种拷贝的初衷都是在改变指针的指向。<br></p>
+<h2 id="对象的深浅拷贝"><a href="#对象的深浅拷贝" class="headerlink" title="对象的深浅拷贝"></a>对象的深浅拷贝</h2><p>我们知道了，浅拷贝其实只要运用“=”号就可以了，那深拷贝应该怎么做呢，请看以下代码：<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">var a = &#123;</span><br><span class="line">    &quot;name&quot;: &quot;sanmi&quot;,</span><br><span class="line">    &quot;age&quot;: 18</span><br><span class="line">&#125;;</span><br><span class="line">var b = new Object();</span><br><span class="line">b.name = a.name;</span><br><span class="line">b.age = a.age;</span><br><span class="line">b.name = &quot;moyun&quot;;</span><br><span class="line">console.log(b); // &#123; name: &quot;moyun&quot;, age: 18 &#125;</span><br><span class="line">console.log(a); // &#123; name: &quot;sanmi&quot;, age: 18 &#125;</span><br></pre></td></tr></table></figure></p>
+<p>但是，这种方法比较笨，需要将a对象的数值一个个复制出来放到b的内存中，所以，我们换种思路，这其实就是遍历的问题：<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var a = &#123;</span><br><span class="line">    &quot;name&quot;: &quot;sanmi&quot;,</span><br><span class="line">    &quot;age&quot;: 18</span><br><span class="line">&#125;;</span><br><span class="line">var b = &#123;&#125;;</span><br><span class="line">for(var key in a) &#123;</span><br><span class="line">    b[key] = typeof a[key] === &apos;object&apos; ? deepCopy(a[key]) : a[key];</span><br><span class="line">&#125;</span><br><span class="line">b.name = &quot;moyun&quot;;</span><br><span class="line">console.log(b); // &#123; name: &quot;moyun&quot;, age: 18 &#125;</span><br><span class="line">console.log(a); // &#123; name: &quot;sanmi&quot;, age: 18 &#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="数组的深拷贝"><a href="#数组的深拷贝" class="headerlink" title="数组的深拷贝"></a>数组的深拷贝</h2><p>首先我们先看一个比较暴力的方法，那就是遍历，然后赋值：<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var arr1 = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;];</span><br><span class="line">var arr2 = [];</span><br><span class="line">for(var i = 0; i &lt; arr1.length; i++) &#123;</span><br><span class="line">    arr2.push(arr1[i]);</span><br><span class="line">&#125;</span><br><span class="line">arr1[0] = &apos;d&apos;;</span><br><span class="line">console.log(arr1); // [&apos;d&apos;, &apos;b&apos;, &apos;c&apos;]</span><br><span class="line">console.log(arr2); // [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]</span><br></pre></td></tr></table></figure></p>
+<p>这种方法不太提倡，因为很多简单的方法都能进行数组深拷贝，比如slice或者concat：<br><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var arr1 = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;];</span><br><span class="line">var arr2 = [];</span><br><span class="line">var arr3 = [];</span><br><span class="line">arr2 = arr1.slice(0);</span><br><span class="line">arr3 = arr1.concat();</span><br><span class="line">arr2[0] = &apos;d&apos;</span><br><span class="line">arr3[1] = &apos;e&apos;</span><br><span class="line">// 深拷贝改变自己不会影响其他数组的值</span><br><span class="line">console.log(arr1); // [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]</span><br><span class="line">console.log(arr2); // [&apos;d&apos;, &apos;b&apos;, &apos;c&apos;]</span><br><span class="line">console.log(arr3); // [&apos;a&apos;, &apos;e&apos;, &apos;c&apos;]</span><br></pre></td></tr></table></figure></p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>当然对象或数组的深拷贝还有很多种方法，比如es6中新增的方法Object.assign和jQuery的$.extend等等</p>
+
+      
     </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+      <div>
+        
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>三米</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="http://yoursite.com/2019/01/12/js的深拷贝和浅拷贝/" title="js的深拷贝和浅拷贝">http://yoursite.com/2019/01/12/js的深拷贝和浅拷贝/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/01/12/JavaScript变量和对象参数传值/" rel="next" title="JavaScript变量和对象参数赋值">
+                <i class="fa fa-chevron-left"></i> JavaScript变量和对象参数赋值
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjAwNC8xODU1MQ=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -490,8 +609,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -554,6 +682,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要知道深浅拷贝"><span class="nav-number">2.</span> <span class="nav-text">为什么要知道深浅拷贝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对象的深浅拷贝"><span class="nav-number">3.</span> <span class="nav-text">对象的深浅拷贝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组的深拷贝"><span class="nav-number">4.</span> <span class="nav-text">数组的深拷贝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后"><span class="nav-number">5.</span> <span class="nav-text">最后</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -703,6 +848,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=6.7.0"></script>
+<script src="/js/src/post-details.js?v=6.7.0"></script>
+
+
 
   
 
@@ -712,6 +861,23 @@
 
 
   
+  
+    <script>
+  window.livereOptions = {
+    refer: '2019/01/12/js的深拷贝和浅拷贝/'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+  
+
 
 
 
